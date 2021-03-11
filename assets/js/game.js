@@ -68,10 +68,12 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
 } else {
   window.alert("You need to pick a valid option. Try again!");
 }
-};
+}
     }
 
 // run fight function to start game
-for(var i = 0; i < enemyNames.length; i++) {
+for (var i = 0; i < enemyNames.length; i++) {
+    debugger;
+    // call fight function with enemy-robot
     fight(enemyNames[i]);
   }
